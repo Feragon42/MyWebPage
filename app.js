@@ -7,7 +7,8 @@ var bodyParser = require('body-parser');
 
 var mongo = require('mongodb');
 var monk = require('monk');
-var db = monk('127.0.0.1:27017/feragon');
+//var db = monk('127.0.0.1:27017/feragon');
+var db = monk('mongodb://me:mydb999@ds037395.mlab.com:37395/feragon_page');
 
 var routes = require('./routes/index');
 var users = require('./routes/users');
