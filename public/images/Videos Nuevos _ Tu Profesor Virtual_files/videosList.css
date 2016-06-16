@@ -1,0 +1,127 @@
+.bgnd {
+	height: 300px;
+}
+
+
+#description {
+	color: white;
+	font-family: Arial;
+	text-shadow: 1px 1px 2px white;
+}
+
+#descriptionR {
+	color: white;
+	font-family: Arial;
+	text-shadow: 1px 1px 2px white;
+	text-align: right;
+}
+
+#mathImg{
+  background-image: url("/resources/mathstatic.jpg");
+  background-position: right;
+  background-repeat: no-repeat;
+  background-color: rgb(0, 0, 26);
+  background-size: 50%;
+}
+
+#mathVideoList {
+  background-color: rgb(0, 0, 26);
+  color: white;
+  font-family: Arial;
+}
+
+
+#fisicImg{
+  background-image: url("/resources/fisicastatic.jpg");
+  background-position: left;
+  background-repeat: no-repeat;
+  background-color: rgb(255, 102, 0);
+  background-size: 50%;
+}
+
+#fisicVideoList {
+  background-color: rgb(255, 102, 0);
+  color: white;
+  font-family: Arial;
+}
+
+#quimicImg{
+	background-image: url("/resources/quimicastatic.jpg");
+  background-position: right;
+  background-repeat: no-repeat;
+  background-color: rgb(128, 0, 0);
+  background-size: 50%;
+}
+
+#quimicVideoList {
+  background-color: rgb(128, 0, 0);
+  color: white;
+  font-family: Arial;
+}
+  
+#mathImg:hover{
+  background-image: url("/resources/math.gif");
+  background-position: right;
+  background-repeat: no-repeat;
+  background-size: 50%;
+}
+
+#fisicImg:hover{
+  background-image: url("/resources/fisica.gif");
+  background-position: left;
+  background-repeat: no-repeat;
+  background-color: rgb(255, 102, 0);
+  background-size: 50%;
+}
+
+#quimicImg:hover{
+  background-image: url("/resources/quimica.gif");
+  background-position: right;
+  background-repeat: no-repeat;
+  background-color: rgb(128, 0, 0);
+  background-size: 50%;   
+}
+
+.watchVideoButton {
+  display: none;
+  z-index: 2;
+  position: absolute;
+  top: 40%;
+  left: 30%;
+  width: 40%;
+  height: 20%;
+}
+
+/*---------------------------------------------------Subject per Themes---------------------------------------------*/
+
+.videoList {
+  display: none;
+}
+
+.themeList {
+  display: none;
+}
+
+.themesTitle{
+  background-color: white;
+  color: grey;
+  cursor: default;
+}
+
+.themesTitle:hover{
+  background-color: blue;
+  color: white;
+  cursor: pointer; 
+}
+
+.blockTitle{
+  background-color: white;
+  color: grey;
+  cursor: default;
+}
+
+.blockTitle:hover{
+  background-color: blue;
+  color: white;
+  cursor: pointer; 
+}

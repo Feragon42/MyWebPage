@@ -1,0 +1,7 @@
+# Do not remove this line or mod_rewrite rules and search engine friendly URLs will stop working
+RewriteBase /
+
+# Rewrite to www.
+
+RewriteCond %{HTTP_HOST} ^feragon\.com.ve$ [NC]
+RewriteRule ^(.*)$ http://www.feragon.com.ve/$1 [L,R=301]

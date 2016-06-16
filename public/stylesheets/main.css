@@ -1,0 +1,32 @@
+body {
+  padding: 0px 15px 0px 15px;
+}
+
+.titleText {
+  color: black;
+  font-family: arial black;
+  font-style: italic;
+  height: 40%;
+}
+
+h1 {
+  font-size: 60pt;
+}
+
+h2 {
+  font-size: 40pt;
+}
+
+p{
+  font-size: 12pt;
+}
+
+.selfTyping{
+  font-size: 18pt;
+}
+
+.navbtn {
+  width: 200px;
+  height: 200px;
+  margin-right: 20px;
+}

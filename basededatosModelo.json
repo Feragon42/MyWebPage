@@ -1,0 +1,160 @@
+db.story.insert({
+  "section" : "Estudios",
+  "cards" : [
+    {
+      "institute" : "Universidad Tecnológica del Centro (UNITEC)",
+      "place" : "Guacara Edo. Carabobo. Venezuela.",
+      "since" : "01/2011",
+      "to" : "07/2016",
+      "title" : "Ingeniero en Información",
+      "techs" : [
+        "UML",
+        "HTML5",
+        "CSS3",
+        "JSP",
+        "ASP",
+        "Javascript",
+        "Java",
+        "C#",
+        "MySQL",
+        "Apache",
+        "PHP"       
+      ],
+      "picture" : "images/uniteclogo.png"
+    },
+  ]
+})
+
+db.story.insert({
+  "section" : "Cursos",
+  "cards" : [
+    {
+      "institute" : "Codeschool",
+      "place" : "A distancia",
+      "since" : "05/2015",
+      "to" : "05/2015",
+      "title" : "Shaping up with Angular.js",
+      "techs" : [
+        "Angular.js"      
+      ],
+      "picture" : "images/angularjscodeschool.png"
+    },
+    {
+      "institute" : "Universitat Politècnica de València ",
+      "place" : "UPV[X] (A distancia)",
+      "since" : "01/2016",
+      "to" : "02/2016",
+      "title" : "Introducción al desarrollo de videojuegos con Unity",
+      "techs" : [
+        "Unity",
+        "C#",
+        "Javascript"     
+      ],
+      "picture" : "images/upvlogo.png"
+    },
+  ]
+})
+
+db.story.insert({
+  "section" : "Experiencia Laboral",
+  "cards" : [
+    {
+      "institute" : "Reciclo C.A.",
+      "place" : "Valencia Edo. Carabobo. Venezuela",
+      "since" : "06/2010",
+      "to" : "02/2012",
+      "title" : "Vendedor, Segundo Encargado, Técnico de Computadoras e Impresoras",
+      "techs" : [
+        "Windows",
+        "Linux",
+        "MacOS"      
+      ],
+      "picture" : "images/none.png"
+    },
+    {
+      "institute" : "2112 Soluciones",
+      "place" : "San Diego edo. Carabobo. Venezuela",
+      "since" : "03/2012",
+      "to" : "03/2013",
+      "title" : "Encargado, Vendedor, Técnico de Computadoras e Impresoras.",
+      "techs" : [
+        "Windows",
+        "Linux",
+        "MacOS"       
+      ],
+      "picture" : "images/none.png"
+    },
+    {
+      "institute" : "Mercantil Banco Universal",
+      "place" : "Caracas, Venezuela",
+      "since" : "04/2014",
+      "to" : "08/2014",
+      "title" : "Pasante. Analista de Sistemas.",
+      "techs" : [
+        "jQuery",
+        "SVN",
+        "JSP",
+        "HTML5",
+        "CSS3"       
+      ],
+      "picture" : "images/mercantillogo.png"
+    },
+    {
+      "institute" : "Mercantil Banco Universal",
+      "place" : "Caracas, Venezuela",
+      "since" : "01/2015",
+      "to" : "03/2016",
+      "title" : "Tesista",
+      "techs" : [
+        "Big Data",
+        "MySQL",
+        "Pentaho",
+        "Javascript",
+        "HTML5",
+        "CSS3",
+        "Bootstrap 3"       
+      ],
+      "picture" : "images/mercantillogo.png"
+    },
+    {
+      "institute" : "COTOLabs",
+      "place" : "Valencia, Venezuela",
+      "since" : "03/2016",
+      "to" : "Actualidad",
+      "title" : "Web Developer, FullStack.",
+      "techs" : [
+        "jQuery",
+        "Node.js",
+        "Jade",
+        "Bootstrap 3",
+        "CSS3",
+        "Express.js",
+        "MongoDB"       
+      ],
+      "picture" : "images/mercantillogo.png"
+    }
+  ]
+})
+
+db.story.insert({
+  "section" : "Freelance",
+  "cards" : [
+    {
+      "institute" : "Individual",
+      "place" : "A Distancia",
+      "since" : "05/2016",
+      "to" : "06/2016",
+      "title" : "Web Developer, FullStack, Freelance",
+      "techs" : [
+        "jQuery",
+        "HTML5",
+        "CSS3",
+        "Bootstrap 3",
+        "PHP",
+        "CodeIgniter",
+        "MySQL"      
+      ],
+      "picture" : "images/none.png"
+    },
+  ]
+})

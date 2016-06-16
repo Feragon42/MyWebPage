@@ -1,0 +1,60 @@
+body { 
+  padding-top: 70px;
+  height: 100%;
+}
+
+#wrapper {
+  min-height:100%;
+}
+
+#accesPage{
+  text-align: center;
+}
+
+#login{
+  padding: 0 40px 0 20px;
+  text-align: justify;
+}
+
+#logoNav {
+  width: 100%;
+  height: 100%;
+  padding-bottom: 20px;
+}
+
+#tpvNav {
+  margin-top: 25px;
+  width: 100%;
+}
+
+#containerNav{
+  position: fixed;
+  top: 0px;
+  left: 6%;
+  z-index: 3;
+  margin-left: 25px;
+}
+
+.allPages {
+  margin-top: 30px;
+  height: auto;
+  height: 100%;
+}
+
+#content{
+  padding-bottom: 300px;
+}
+
+#dropdownUser{
+  padding: 15px 5px 10px 5px;
+  text-align: center;
+  width: 250%;
+  left: -75%;
+}
+
+#dropdownAdmin{
+  padding: 15px 5px 10px 5px;
+  text-align: center;
+  left: -12%;
+
+}

@@ -1,0 +1,232 @@
+//Skills
+db.skills.insert({
+  'type' : 'tools',
+  'name' : 'Power Point',
+  'logo' : 'images/skills/powerpoint.png',
+  'level' : 5,
+  'comment' : 'He llegado a dominar tanto Power Point, que me he encontrado haciendo ediciones de imágenes rápidas, y construyendo bocetos en él. Se me hace fácil hacer buenas presentaciones con él.'
+})
+
+db.skills.insert({
+  'type' : 'tools',
+  'name' : 'Word',
+  'logo' : 'images/skills/word.png',
+  'level' : 5,
+  'comment' : 'Como todo estudiante, lo he utilizado constantemente durante, aproximadamente, toda mi carrera. Al desarrollar la tesis con él, y tener que agregar todo tipo de índices y referencias, no creo que haya algo que desconozca de éste software.'
+})
+
+db.skills.insert({
+  'type' : 'tools',
+  'name' : 'Excel',
+  'logo' : 'images/skills/excel.png',
+  'level' : 3,
+  'comment' : 'Excel es el terror para muchos neófitos en la computación, incluso para otros que no lo son tanto, me imagino que es por todas esas funciones que ofrece que, solo los que lo usan diariamente, llegan a conocer. Por esto mismo, no me atrevo a decir que tengo un nivel mayor a 3pts, aunque sepa usarlo bastante bien.'
+})
+
+db.skills.insert({
+  'type' : 'tools',
+  'name' : 'Windows',
+  'logo' : 'images/skills/windows.png',
+  'level' : 5,
+  'comment' : 'Puedo decir, con el riesgo de que muchos abandonen la página al leer esto, que Windows es mi sistema operativo favorito. Y lo es justo por la gran cantidad de herramientas, no solo de programación, que tengo a disposición. Lástima que no pueda decir lo mismo del bash (Espero Agosto con ansias).'
+})
+
+db.skills.insert({
+  'type' : 'tools',
+  'name' : 'Ubuntu',
+  'logo' : 'images/skills/ubuntu.png',
+  'level' : 3,
+  'comment' : 'Lo he usado por poco tiempo, y no lo deje por su funcionalidad, sino por la carencia de ciertos softwares a los que ya les tenía cariño en Windows. No tengo problema con volver a usarlo, aunque solo para trabajo.'
+})
+
+db.skills.insert({
+  'type' : 'tools',
+  'name' : 'Mac OS',
+  'logo' : 'images/skills/macos.png',
+  'level' : 2,
+  'comment' : 'Soy algo torpe con él, pero es que no he tenido oportunidad de acostumbrarme. '
+})
+
+db.skills.insert({
+  'type' : 'tools',
+  'name' : 'Visual Studio',
+  'logo' : 'images/skills/visualstudio.png',
+  'level' : 4,
+  'comment' : 'Lo use la mitad de mi vida universitaria, mientras aprendía Visual Basic, C# y ASP. Luego, lo volví a utilizar un tiempo, mientras trataba de aprender a utilizar Unity.'
+})
+
+db.skills.insert({
+  'type' : 'tools',
+  'name' : 'Netbeans',
+  'logo' : 'images/skills/netbeans.png',
+  'level' : 4,
+  'comment' : ' Lo use la otra mitad de mi vida en la universidad, aprendiendo en el Java y JSP. Fueron buenos tiempos, si me dan a elegir entre mi IDE favorito, seguramente diría que es Netbeans'
+})
+
+db.skills.insert({
+  'type' : 'tools',
+  'name' : 'Eclipse',
+  'logo' : 'images/skills/eclipse.png',
+  'level' : 3,
+  'comment' : 'Lo utilice durante mis pasantías en Mercantil Banco para trabajar con JSP. Prefiero Netbeans.'
+})
+
+db.skills.insert({
+  'type' : 'tools',
+  'name' : 'Sublime Text',
+  'logo' : 'images/skills/sublime.png',
+  'level' : 5,
+  'comment' : 'Mi gran compañero de alma, mi fiel escudero, el que se encarga de hacer mis escaramuzas más llevaderas. Amé este editor de texto desde que un buen compañero de la universidad me lo enseño, y no lo he dejado de usar desde entonces.'
+})
+
+db.skills.insert({
+  'type' : 'tools',
+  'name' : 'WAMP Server',
+  'logo' : 'images/skills/wampserver.png',
+  'level' : 4,
+  'comment' : 'Cada vez que se iba a hacer algo que incluía base de datos en la universidad, se utilizaba esta herramienta. Tan cómodo me llegue a sentir con ella, que la he utilizado para otros proyectos externos.'
+})
+
+db.skills.insert({
+  'type' : 'tools',
+  'name' : 'Adobe Photoshop',
+  'logo' : 'images/skills/photoshop.png',
+  'level' : 3,
+  'comment' : 'Antes de convertirme en programador, quise ser diseñador. Gracias a esa etapa de mi vida en la que me la pasaba dibujando e intentando pintar, aprendí a usar varios softwares de éste estilo.'
+})
+
+db.skills.insert({
+  'type' : 'tools',
+  'name' : 'Adobe Illustrator',
+  'logo' : 'images/skills/illustrator.png',
+  'level' : 2,
+  'comment' : 'Antes de ser programador, quise ser diseñador. Durante esa etapa aprendí a un par de programas. Y, como era necesario la vectorización, “Aprendí” a usar Illustrator. Con éste software hice el logo de lo que intento ser mi primera empresa.'
+})
+
+db.skills.insert({
+  'type' : 'tools',
+  'name' : 'SAI',
+  'logo' : 'images/skills/sai.png',
+  'level' : 3,
+  'comment' : 'Siempre quise ser artista, y, aunque tengo una cierta facilidad para el dibujo, me falta mucha práctica y aprender millones de técnicas y conceptos. Pero, igualmente a veces me entretengo dibujando cosas con este software.'
+})
+
+db.skills.insert({
+  'type' : 'tools',
+  'name' : 'GitHub',
+  'logo' : 'images/skills/github.png',
+  'level' : 4,
+  'comment' : 'Lo he utilizado para casi todos mis trabajos profesionales.'
+})
+
+db.skills.insert({
+  'type' : 'knowledge',
+  'name' : 'C#',
+  'logo' : 'images/skills/csharp.png',
+  'level' : 3,
+  'comment' : 'En la universidad trabaje mucho con éste lenguaje. Con él pude realizar varios proyectos y solucionar varios problemas. Adicionalmente, lo utilicé mientras intentaba a aprender a utilizar Unity.'
+})
+
+db.skills.insert({
+  'type' : 'knowledge',
+  'name' : 'Java',
+  'logo' : 'images/skills/java.png',
+  'level' : 3,
+  'comment' : 'Lo he utilizado tanto en proyectos externos, como en gran parte de mi carrera universitaria. Aunque, naturalmente, considero que aún me oculta suficientes secretos como para decir que soy realmente bueno con el lenguaje.'
+})
+
+db.skills.insert({
+  'type' : 'knowledge',
+  'name' : 'MySQL',
+  'logo' : 'images/skills/mysql.png',
+  'level' : 3,
+  'comment' : 'Lo aprendí a utilizar en la universidad. Y, cada vez que se hacía algo con base de datos, MySQL era el designado para la labor. También lo he implementado en varios proyectos externos.'
+})
+
+db.skills.insert({
+  'type' : 'knowledge',
+  'name' : 'PostgreSQL',
+  'logo' : 'images/skills/postgre.png',
+  'level' : 1,
+  'comment' : 'Quizás hasta decir que lo he utilizado sea mucho. Prácticamente se sus fundamentos y he realizado algunos ejercicios con él.'
+})
+
+db.skills.insert({
+  'type' : 'knowledge',
+  'name' : 'MongoDB',
+  'logo' : 'images/skills/mongo.png',
+  'level' : 3,
+  'comment' : 'Solo he realizado un proyecto con él (Además de ésta página), pero me siento bastante cómodo con él. Espero seguir aprendiendo sobre noSQL.'
+})
+
+db.skills.insert({
+  'type' : 'knowledge',
+  'name' : 'Javascript',
+  'logo' : 'images/skills/javascript.png',
+  'level' : 4,
+  'comment' : 'He usado javascript desde que comencé con el desarrollo web. Aunque en mi universidad no lo profundizaron, me gustó tanto el lenguaje que comencé a estudiarlo a parte, solo por ocio. Gracias a esto es debido mi éxito durante las pasantías.'
+})
+
+db.skills.insert({
+  'type' : 'knowledge',
+  'name' : 'jQuery',
+  'logo' : 'images/skills/jquery.png',
+  'level' : 4,
+  'comment' : 'Aunque al principio me mostraba resistente a cambiar, al conocer la sintaxis y los usos de jQuery, no hubo vuelta atrás. Si creía que me gustaba Javascript, no sé qué decir sobre jQuery.'
+})
+
+db.skills.insert({
+  'type' : 'knowledge',
+  'name' : 'Node.js',
+  'logo' : 'images/skills/node.png',
+  'level' : 3,
+  'comment' : 'Lo comencé a usar con mi primer trabajo en COTOLabs. No tardé mucho en adaptarme a los conceptos básicos, y ya puedo decir que me desenvuelvo cómodamente con él. Pero, aún no uso todo su potencial. Ésta página está desarrollada sobre Node.js.'
+})
+
+db.skills.insert({
+  'type' : 'knowledge',
+  'name' : 'AngularJs',
+  'logo' : 'images/skills/angular.png',
+  'level' : 1,
+  'comment' : 'Solo lo he trabajo durante el curso de CodeSchool, pero espero utilizarlo en un buen proyecto próximamente.'
+})
+
+db.skills.insert({
+  'type' : 'knowledge',
+  'name' : 'React.js',
+  'logo' : 'images/skills/react.png',
+  'level' : 1,
+  'comment' : 'Estoy comenzando a trabajar con él. Aún no tengo nada que decir.'
+})
+
+db.skills.insert({
+  'type' : 'knowledge',
+  'name' : 'HTML5',
+  'logo' : 'images/skills/html.png',
+  'level' : 5,
+  'comment' : 'Pues... además de conocer las tags, y como utilizarlas, no sé qué más puedo resaltar.'
+})
+
+db.skills.insert({
+  'type' : 'knowledge',
+  'name' : 'CSS3',
+  'logo' : 'images/skills/css.png',
+  'level' : 3,
+  'comment' : 'No me he dedicado mucho a desarrollar bien mis conocimientos sobre CSS3, pienso que aún me faltan un buen grupo de cosas para perfeccionarlo y poder realizar los diseños que deseo de forma mucho más rápida y simple. Pero, se utilizarlo bien.'
+})
+
+db.skills.insert({
+  'type' : 'knowledge',
+  'name' : 'Jade',
+  'logo' : 'images/skills/jade.png',
+  'level' : 4,
+  'comment' : 'Lo comencé a usar junto con Node.js, y fue amor a primera vista. Me encanta la sintaxis y las utilidades que me ofrece. Apropósito, ésta página está construida con Jade.'
+})
+
+db.skills.insert({
+  'type' : 'knowledge',
+  'name' : 'Bootstrap',
+  'logo' : 'images/skills/bootstrap.png',
+  'level' : 3,
+  'comment' : 'Aunque me parece bastante simple, y se puede hacer casi cualquier cosa solo con revisar la documentación, aún hay algunos detalles que necesito pulir sin duda alguna.'
+})

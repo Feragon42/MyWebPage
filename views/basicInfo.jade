@@ -1,0 +1,51 @@
+extends layout
+
+block content
+  .container#basicInfo.allPages
+    .col-md-6
+      img#profilePic(src='images/profilepic.jpg')
+        
+    .col-md-6.text-right
+      h2 FERNANDO ANDRES GONZALEZ PENA
+      p 24/08/1993
+      p Venezuela
+      p#small Valencia, edo. Carabobo
+   
+  
+    .text-justify.col-lg-12#extract
+      h1 Extracto 
+      label.
+        ¡Hola mundo! Mi nombre es Fernando González. 
+      br
+      label.
+        Yo soy un joven de 22 años con un montón de sueños y ganas de surgir. Desde muy joven me han emocionado las tecnologías y me ha caracterizado mi ímpetu por crear. Estas fueron las aptitudes que me ayudaron a definirme como un desarrollador de ideas, un amante de la resolución de problemas y un entusiasta del autoaprendizaje. Por eso mismo, poco a poco me fui convirtiendo en programador, más específicamente en desarrollador web. Aunque no he tenido mucha experiencia en el ámbito laboral, puedo considerarme a mí mismo como una persona que sabe adaptarse y trabajar en equipo, y que, si se me permite, puedo actuar como líder de un grupo sin ningún inconveniente, lo que sin duda alguna me entusiasma. Soy proactivo, siempre estoy buscando algo nuevo que aprender, y algo en que volcar ese aprendizaje. Como dije con anterioridad, soy un amante de crear, un compositor de ideas a tiempo completo; lo que, sumado a mi pasión por los libros, videojuegos y películas, hace que mis más grandes sueños, y mi objetivo de vida, sea convertirme en un buen escritor, o en un diseñador de videojuegos, o, aún mejor, en ambos.
+      br
+      label.
+        Ahora que ya me conoces un poco mejor, te invito a visitar mi página, donde podrás encontrar, en detalle, todas mis aptitudes y habilidades...
+          
+  .container#story
+    -var i=0
+    for stories in list
+      .theme(cardID=i)
+        h1 #{stories.section}
+      for cards in stories.cards
+        .card(id='cardGroup'+i)
+          .col-xs-8
+            h2 #{cards.institute}
+            h3 #{cards.title}
+            h4 #{cards.place}
+            h4
+              strong Desde: 
+              | #{cards.since}
+              strong - Hasta: 
+              | #{cards.to}
+            h4 Tecnologias:
+            for tags in cards.techs
+              a(href="skills##{tags}" class='btn').tag #{tags}
+          .col-xs-4
+            img#cardPicture(src='#{cards.picture}')
+          
+      -i++
+    br
+        
+      

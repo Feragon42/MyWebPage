@@ -1,0 +1,30 @@
+.videoCarousel .item{
+  background: #3fbf79;
+  padding: 20px 0px;
+  margin: 10px;
+  color: #FFF;
+  height: 150px; 
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+  text-align: center;
+}
+
+.fontVideoDescription {
+  color: black;
+  font-weight: bold;
+  text-align: left;
+  text-shadow: #000 0px 0px 1px;
+}
+
+.videoL {
+  background: #3fbf79;
+  padding: 20px 0px;
+  margin: 10px;
+  color: #FFF;
+  height: 150px; 
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+  text-align: center;
+}

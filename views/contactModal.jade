@@ -1,0 +1,34 @@
+.modal.fade#contactMe
+  .modal-dialog
+    .modal-content
+      .modal-header#cmHeader
+        button.close(type='button' data-dismiss='modal') X
+        h2.modal-title Contactame
+      .modal-body#cmBody
+        form(method='POST')
+          p Gracias por querer contactarme. Envia un mensaje y te respondere lo mas pronto posible.
+          br
+          div
+            h4 Asunto
+            input#inputSubject(type='text')
+            br
+            h4 Mensaje
+            input#inputContent(type='text')
+            br
+            h4 Correo*
+            input#inputContent(type='email')
+            br
+            small *Necesito tu correo para poderte responder.
+            br
+      .modal-footer#cmFooter
+        p.
+          Tambien puedes contactarme en mis redes sociales
+        a.btn.btn-social-icon.btn-facebook.contactIcon(href='https://www.facebook.com/feragon42' target='_blank')
+          span.fa.fa-facebook
+        a.btn.btn-social-icon.btn-twitter.contactIcon(href='https://twitter.com/Feragon42' target='_blank')
+          span.fa.fa-twitter
+        a.btn.btn-social-icon.btn-linkedin.contactIcon(href='https://www.linkedin.com/in/fernando-gonzalez-893424b2?trk=nav_responsive_tab_profile_pic' target='_blank')
+          span.fa.fa-linkedin
+        a.btn.btn-social-icon.btn-github.contactIcon(href='https://github.com/Feragon42' target='_blank')
+          span.fa.fa-github
+            

@@ -1,0 +1,48 @@
+extends layout
+
+block content
+  .container.allPages
+    h1 Habilidades
+    p.text-justify.
+      Durante toda mi carrera profesional he desarrollado distintas habilidades, adaptándome al área en la que requiera desempeñarme. A continuación, mostraré todos los softwares que he aprendido a manejar, y todos los conocimientos que he obtenido durante mi trayecto, detallando el nivel de experticia que presumo poseo. Aunque, podría indicar, que una de mis mayores habilidades es mi velocidad de aprendizaje, y mi motivación para el autoaprendizaje, lo que me lleva a poder adaptarme rápidamente al trabajo que deba y/o desee, hacer.
+    p Pase el cursor por el logo que desee para obtener mas detalles.
+    br
+    
+  .container#tools
+    h1 Herramientas
+    
+    for skill in list
+      if skill.type == 'tools'
+        .col-xs-4.skill(id='#{skill.name}')
+          .col-md-6
+            img.skillLogo(src='#{skill.logo}' title='#{skill.comment}')
+          .col-md-6
+            p.skillTitle #{skill.name}
+            -var lvl=skill.level
+            -for(var i = 0; i<5; i++)
+              -if(i+1<=lvl) 
+                img.skillLevel(src='images/skills/level1.png')
+              -else
+                img.skillLevel(src='images/skills/level0.png')  
+              
+          
+      
+  .container#knowledges
+    h1 Areas de Conocimiento
+    
+    for skill in list
+      if skill.type == 'knowledge'
+        .col-xs-4.skill(id='#{skill.name}')
+          .col-md-6
+            img.skillLogo(src='#{skill.logo}' title='#{skill.comment}')
+          .col-md-6
+            p.skillTitle #{skill.name}
+            -var lvl=skill.level
+            -for(var i = 0; i<5; i++)
+              -if(i+1<=lvl) 
+                img.skillLevel(src='images/skills/level1.png')
+              -else
+                img.skillLevel(src='images/skills/level0.png')  
+                
+      
+      

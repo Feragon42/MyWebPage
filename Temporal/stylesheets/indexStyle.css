@@ -1,0 +1,15 @@
+body {
+  padding: 20px 15px 0px 15px;
+}
+
+.textos {
+  color: black;
+  text-align: center;
+  font-family: consolas;
+  font-size: 42pt;
+  margin-top: 20%;
+}
+
+#typeCons {
+  font-size: 22pt;
+}
