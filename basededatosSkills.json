@@ -230,3 +230,27 @@ db.skills.insert({
   'level' : 3,
   'comment' : 'Aunque me parece bastante simple, y se puede hacer casi cualquier cosa solo con revisar la documentación, aún hay algunos detalles que necesito pulir sin duda alguna.'
 })
+
+db.skills.insert({
+  'type' : 'knowledge',
+  'name' : 'PHP',
+  'logo' : 'images/skills/php.png',
+  'level' : 4,
+  'comment' : 'AGREGAR COMENTARIO'
+})
+
+db.skills.insert({
+  'type' : 'knowledge',
+  'name' : 'CodeIgniter',
+  'logo' : 'images/skills/codeigniter.png',
+  'level' : 3,
+  'comment' : 'AGREGAR COMENTARIO'
+})
+
+db.skills.insert({
+  'type' : 'knowledge',
+  'name' : 'Laravel',
+  'logo' : 'images/skills/laravel.png',
+  'level' : 2,
+  'comment' : 'AGREGAR COMENTARIO'
+})

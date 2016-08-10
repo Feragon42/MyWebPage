@@ -1,5 +1,6 @@
 body {
   padding: 0px 15px 0px 15px;
+  color: white;
 }
 
 .titleText {
@@ -29,4 +30,10 @@ p{
   width: 200px;
   height: 200px;
   margin-right: 20px;
+}
+
+#indexBody{
+  background-image: url('/images/mainbgn/background2.jpeg');
+  background-size: 100% 100%;
+  background-opacity: 0.5;
 }
